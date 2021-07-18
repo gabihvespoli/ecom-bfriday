@@ -3,3 +3,196 @@
 * {
   font-family: "Ubuntu", sans-serif;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input,
+button {
+  padding: 0;
+  text-align: center;
+  height: 64px;
+  font-size: 20px;
+  border: 1px solid #ffc107;
+  border-radius: 0.25rem;
+}
+
+input {
+  width: 250px;
+}
+
+button {
+  width: 150px;
+  color: #000;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+button:hover {
+  font-weight: bolder;
+  color: #ffc107;
+  background-color: #000;
+  border-color: #000;
+  transition: 0.5s;
+}
+
+.title {
+  font-size: 80px;
+}
+
+.loading {
+  color: #1eff00;
+}
+
+.bg-color--black {
+  background: black;
+  color: #ffc107;
+}
+
+.bg-black-friday {
+  background: black;
+  color: whitesmoke;
+  background-image: url("https://www.kabum.com.br/hotsite/blackfriday/img/logoblackfriday.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.content-default {
+  padding: 20px;
+}
+
+.content-card {
+  padding: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.content-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex: 1;
+  margin: 2px;
+  width: 33%;
+  justify-content: center;
+}
+
+.item-center--right {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.item-center--left {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container-paralax {
+  height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content-paralax--data {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+  margin: 100px;
+  border-radius: 50px;
+}
+
+.bg-img--version--1 {
+  background-image: url("https://images.pexels.com/photos/5053846/pexels-photo-5053846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.bg-img--version--2 {
+  background-image: url("https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.bg-img--version--3 {
+  background-image: url("https://images.pexels.com/photos/5961216/pexels-photo-5961216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.content-left--main {
+  position: fixed;
+  display: grid;
+  left: 0;
+  top: 30%;
+  background: #ff5e00;
+  padding: 15px 10px 15px 10px;
+  border-radius: 0 10px 10px 0;
+}
+
+.content-left--main i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.content-left--main a {
+  margin: 15px 0px 15px 0px;
+}
+
+.content-left--main i:hover {
+  font-size: 60px;
+  color: #000000;
+  transition: 1s;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .content-left--main {
+    position: fixed;
+    display: flex;
+    top: auto;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    border-radius: 10px 10px 0 0;
+  }
+
+  .content-left--main i {
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .content-left--main a {
+    margin: 15px 20px 15px 20px;
+  }
+
+  .content-left--main i:hover {
+    font-size: 50px;
+    color: white;
+    transition: 0;
+  }
+}

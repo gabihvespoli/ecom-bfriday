@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meteor Store</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/script.js"></script>
+  <script src="https://kit.fontawesome.com/8ac0ce319f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  
+  <header id="top" class="content-default bg-color--black text-center">
+    <h1 class="title">Meteor Store</h1>
+  </header>
+  <div class="container content-default bg-black-friday text-center" id="01">
+  </div>
+  <div class="container-paralax bg-img--version--1 item-center--right" id="02">
+    <div class="content-paralax--data">
+      <h1>Há mais de 10 anos oferecendo os melhores produtos pelos menores preços do mercado.</h1>
+        <p>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie
+          leo, vitae iaculis nisl. Pra lá , depois divoltis porris, paradis. Si num tem leite então bota uma pinga aí
+          cumpadi! Cevadis im ampola pa arma uma pindureta.
+        </p>
+    </div>
+  </div>
+  <div class="container-paralax bg-img--version--2 item-center--left" id="03">
+    <div class="content-paralax--data">
+      <h1>O evento mais esperado do ano está chegando!</h1>
+        <p>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie
+          leo, vitae iaculis nisl. Pra lá , depois divoltis porris, paradis. Si num tem leite então bota uma pinga aí
+          cumpadi! Cevadis im ampola pa arma uma pindureta.
+        </p>
+    </div>
+  </div>
+  <div class="container-paralax bg-img--version--3 item-center--right" id="04">
+    <div class="content-paralax--data">
+      <div class="content-flex content-default">
+        <div class="content-default flex-wrap">
+          <h1>Cadastre seu e-mail para receber as ofertas!</h1>
+        </div>
+        <div class="content-default flex-wrap form">
+          <form id="form">
+            <input id="email" type="text" name="email" placeholder="Digite seu e-mail..." required>
+            <button class="button" type="submit" onclick="register()">Eu quero!</button>
+            <div id="loading" class="loading"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content-left--main">
+    <a href="#01">
+      <i class="fas fa-meteor"></i>
+    </a>
+    <a href="#02">
+      <i class="fas fa-comment-dollar"></i>
+    </a>
+    <a href="#03">
+      <i class="far fa-hand-spock"></i>
+    </a>
+    <a href="#04">
+      <i class="fas fa-paper-plane"></i>
+    </a>
+  </div>
+  <footer class="bg-color--black">
+    &copy; Copyright 2021
+  </footer>
 </body>
+
 </html>
