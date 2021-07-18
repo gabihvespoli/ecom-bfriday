@@ -17,7 +17,7 @@
 
 🚀 Ecommerce Black friday é um projeto desenvolvido para o bootcamp da VTEX.
 
-Projeto desenvolvido durante o **Bootcamp** oferecida pela [Gama Academy](https://www.gama.academy/).
+Projeto desenvolvido durante o **Bootcamp** oferecido pela [Gama Academy](https://www.gama.academy/).
 
 ---
 
